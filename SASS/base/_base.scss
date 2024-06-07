@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+h1 {
+    font-family: 'Shrikhand';
+    font-weight: 400;
+    font-size: 30px;
+    @media screen and (min-width:1025px){
+        font-size: 37px;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}

@@ -1,0 +1,34 @@
+/***** Loader *****/
+
+@keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+
+@keyframes spin {
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+
+@keyframes rotate {
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+/***** Menu *****/
+
+@keyframes slide {
+    0% {
+        transform: translateX(2500px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

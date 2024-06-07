@@ -1,0 +1,46 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color:#353535 ;
+    color: white;
+    padding: 22px 25px;
+    @media screen and (min-width:1025px){
+        flex-direction: row-reverse;
+        gap: 80px;
+        height: 115px;
+        align-items: flex-end;
+        padding: 30px 60px;
+    }
+
+    h2{
+        font-family: 'Shrikhand';
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    a{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        transition: 250ms ease-in-out;
+        &:hover{
+            color: $color-primary;
+            
+        }
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        @media screen and (min-width:1025px){
+            flex-direction: row;
+            gap: 15px;
+        }
+    }
+
+}

@@ -1,0 +1,20 @@
+.heart-full {
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient($color-secondary, $color-primary);
+    -webkit-background-clip: text;
+
+  }
+  
+  .heart-full:hover {
+    opacity: 1;
+    background-image: linear-gradient($color-secondary, $color-primary);
+    transition: opacity 0.7s ease-in-out;
+  }
+  
+  .fa-heart {
+    position: absolute;
+    cursor: pointer;
+    font-size: 25px;
+  }

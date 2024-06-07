@@ -1,0 +1,45 @@
+/***** header main *****/
+.logo {
+    @include flex-center;
+    position: relative;
+    height: 63px;
+    box-shadow: 0 1px 9px rgba(0, 0, 0, 0.450);
+    @media screen and (min-width:1024px){
+        box-shadow: none;
+        height: 95px;
+    }
+}
+
+.location {
+    @include flex-center;
+    background-color: #EAEAEA;
+    color: #353535;
+    height: 50px;
+
+    .fa-solid {
+        padding-right: 17px;
+    }
+}
+
+/***** header menu *****/
+.logo_menu {
+    @include flex-center;
+    position: relative;
+    height: 63px;
+    @media screen and (min-width:1025px){
+        height: 95px;
+    }
+}
+.back_arrow{
+    color: black;
+    position: absolute;
+    left: 24px;
+    top: 38%;
+
+}
+
+.banner{
+    height: 270px;
+    width: 100%;
+    object-fit: cover;
+}

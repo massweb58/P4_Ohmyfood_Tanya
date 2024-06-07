@@ -1,0 +1,26 @@
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin button{
+    background: linear-gradient(to top, $color-primary,$color-secondary);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: 500;
+    padding: 16px;
+    min-width: 186px;
+    cursor: pointer;
+    transition: all 350ms ease-in-out;
+        &:hover{
+            box-shadow: 0px 4px 16px rgba(0,0,0,0.95);
+            opacity: 0.85;
+        }
+    
+}
+
+@mixin shadow{
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.30);
+}
